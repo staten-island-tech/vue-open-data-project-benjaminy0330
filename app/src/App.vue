@@ -1,6 +1,9 @@
 <script setup>
+//header of website
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+
+
 </script>
 
 <template>
@@ -16,7 +19,7 @@ import HelloWorld from './components/HelloWorld.vue'
       
     </div>
   </header>
-<h1>home page will hold api</h1>
+    <h1>home page will hold sdasdapi</h1>
   <RouterView />
 </template>
 
