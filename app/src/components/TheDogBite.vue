@@ -16,9 +16,6 @@ async function fetchData(URL) {
     console.error(err);
   }
 }
-
-
-
 fetchData(URL);
 
 </script>
