@@ -12,14 +12,13 @@ import HelloWorld from './components/HelloWorld.vue'
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
 
-      
         <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/brooklyn">brooklyn</RouterLink>
-        <RouterLink to ="/bronx"> bronx</RouterLink>
+        <RouterLink to="/brooklyn">Brooklyn</RouterLink>
+        <RouterLink to ="/bronx"> Bronx</RouterLink>
       
     </div>
   </header>
-    <h1>home page will hold sdasdapi</h1>
+   
   <RouterView />
 </template>
 

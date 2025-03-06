@@ -1,6 +1,6 @@
 <template>
     <div class = "info">
-      <h1> {{  }}</h1>
+      <h1> {{ data.uniqueid }}</h1>
     </div>
 </template>
 
@@ -17,6 +17,7 @@ async function fetchData(URL) {
   }
 }
 fetchData(URL);
+
 
 </script>
 
