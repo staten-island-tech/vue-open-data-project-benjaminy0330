@@ -1,6 +1,6 @@
 <template>
     <div class = "info">
-      <h1> {{ data.uniqueid }}</h1>
+      <h1></h1>
     </div>
 </template>
 

@@ -4,6 +4,7 @@ import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 
 
+
 </script>
 
 <template>
@@ -18,12 +19,15 @@ import HelloWorld from './components/HelloWorld.vue'
       
     </div>
   </header>
-   
+   <DogBite />
   <RouterView />
+
 </template>
+
 
 <style scoped>
 .nav {
   text-align: center;
+  color: blue;
 }
 </style>

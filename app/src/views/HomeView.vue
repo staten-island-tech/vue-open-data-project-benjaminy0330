@@ -7,7 +7,7 @@
 
 <script setup>
 import TheWelcome from '@/components/TheWelcome.vue';
-import TheDogBite from '@/components/TheDogBite.vue';
+import TheDogBite from '@/components/DogBite.vue';
 
 
 </script>
