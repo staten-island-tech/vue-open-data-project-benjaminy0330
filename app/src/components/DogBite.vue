@@ -1,6 +1,8 @@
 <template>
     <div class = "info">
-      <h1></h1>
+      <h1> {{ data.uniqueid }}</h1>
+      <h1> {{ URL.data.gender }}</h1>
+      <h1> {{ URL.data.breed }}</h1>
     </div>
 </template>
 
