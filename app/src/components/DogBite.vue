@@ -1,25 +1,26 @@
 <template>
     <div class = "info">
-      <h1> {{ data.uniqueid }}</h1>
-      <h1> {{ URL.data.gender }}</h1>
-      <h1> {{ URL.data.breed }}</h1>
+    
     </div>
 </template>
 
 <script setup>
 const URL = "https://data.cityofnewyork.us/resource/rsgh-akpg.json";
+import {ref, onMounted} from 'vue';
 async function fetchData(URL) {
   try {
     const response = await fetch(URL);
     const data = await response.json();
    
-    console.log(data);
+    console.log(data)
   } catch (err) {
     console.error(err);
   }
 }
+onMounted(() =>{
+ 
 fetchData(URL);
-
+})
 
 </script>
 

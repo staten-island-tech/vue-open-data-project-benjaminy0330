@@ -16,6 +16,7 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/brooklyn">Brooklyn</RouterLink>
         <RouterLink to ="/bronx"> Bronx</RouterLink>
+        <RouterLink to ="/queens"> Queens</RouterLink>
       
     </div>
   </header>
