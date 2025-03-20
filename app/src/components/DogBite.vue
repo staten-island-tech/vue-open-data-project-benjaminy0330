@@ -5,6 +5,7 @@
 </template>
 
 <script setup>
+
 const URL = "https://data.cityofnewyork.us/resource/rsgh-akpg.json";
 import {ref, onMounted} from 'vue';
 async function fetchData(URL) {

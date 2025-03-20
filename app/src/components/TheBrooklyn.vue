@@ -2,6 +2,8 @@
     <div>
         <h1>Dog bites in brooklyn that are filtered by </h1>
         <h1>asdasdasads</h1>
+        <h1>asdasdasads</h1>
+        <h1>asdasdasads</h1>
         <DogBite />
     </div>
 

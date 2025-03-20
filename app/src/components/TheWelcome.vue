@@ -1,12 +1,13 @@
+<template>
+  <div>
+    <h1>sadasdasd</h1>
+  </div>
+</template>
+
 <script setup>
-
-
 
 </script>
 
-<template>
+<style lang="scss" scoped>
 
-  <h1> this is part of the homepage </h1>
-
-  
-</template>
+</style>
