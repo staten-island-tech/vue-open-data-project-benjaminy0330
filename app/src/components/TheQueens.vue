@@ -6,14 +6,16 @@
       :data="chartData"
     />
 
-    <h2>???</h2>
+    <h2></h2>
   </template>
   
   <script>
+  import DogBite from './DogBite.vue'
   import { Bar } from 'vue-chartjs'
   import { Chart as ChartJS, Title, Tooltip, Legend, BarElement, CategoryScale, LinearScale } from 'chart.js'
   
   ChartJS.register(Title, Tooltip, Legend, BarElement, CategoryScale, LinearScale)
+  
   
   export default {
     name: 'BarChart',
@@ -21,8 +23,8 @@
     data() {
       return {
         chartData: {
-          labels: [ 'January', 'February', 'March' ],
-          datasets: [ { data: [40, 20, 12] } ]
+          labels: [  ],
+          datasets: [ { data:"https://data.cityofnewyork.us/resource/rsgh-akpg.json" } ]
         },
         chartOptions: {
           responsive: true

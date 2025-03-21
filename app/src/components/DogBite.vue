@@ -1,6 +1,9 @@
 <template>
     <div class = "info">
-    
+      <h2>{{ data.uniqueid }}</h2>
+      <h2>{{ data.dateofbite }}</h2>
+      <h2>{{ data.borough}}</h2>
+      <h2>{{ data.sprayneutral}}</h2>
     </div>
 </template>
 
@@ -19,9 +22,8 @@ async function fetchData(URL) {
   }
 }
 onMounted(() =>{
- 
-fetchData(URL);
-})
+ fetchData(URL);
+});
 
 </script>
 
