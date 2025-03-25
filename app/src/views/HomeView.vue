@@ -5,13 +5,18 @@
   </div>
 </template>
 
+
 <script setup>
 import TheWelcome from '@/components/TheWelcome.vue';
-import TheDogBite from '@/components/DogBite.vue';
+
+
+
 
 
 </script>
 
+
 <style scoped>
+
 
 </style>

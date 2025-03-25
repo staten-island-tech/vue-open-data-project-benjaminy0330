@@ -5,25 +5,33 @@ import HelloWorld from './components/HelloWorld.vue'
 
 
 
+
+
+
 </script>
+
 
 <template>
   <header>
-    
+   
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
+
 
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/brooklyn">Brooklyn</RouterLink>
         <RouterLink to ="/bronx"> Bronx</RouterLink>
         <RouterLink to ="/queens"> Queens</RouterLink>
-      
+     
     </div>
   </header>
    <DogBite />
   <RouterView />
 
+
 </template>
+
+
 
 
 <style scoped>
@@ -32,3 +40,5 @@ import HelloWorld from './components/HelloWorld.vue'
   color: blue;
 }
 </style>
+
+

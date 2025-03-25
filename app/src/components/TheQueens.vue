@@ -1,35 +1,13 @@
-
 <template>
-    <Bar
-      id="my-chart-id"
-      :options="chartOptions"
-      :data="chartData"
-    />
+  <div>
+<h2>queens works</h2>
+  </div>
+</template>
 
-    <h2></h2>
-  </template>
-  
-  <script>
-  import DogBite from './DogBite.vue'
-  import { Bar } from 'vue-chartjs'
-  import { Chart as ChartJS, Title, Tooltip, Legend, BarElement, CategoryScale, LinearScale } from 'chart.js'
-  
-  ChartJS.register(Title, Tooltip, Legend, BarElement, CategoryScale, LinearScale)
-  
-  
-  export default {
-    name: 'BarChart',
-    components: { Bar },
-    data() {
-      return {
-        chartData: {
-          labels: [  ],
-          datasets: [ { data:"https://data.cityofnewyork.us/resource/rsgh-akpg.json" } ]
-        },
-        chartOptions: {
-          responsive: true
-        }
-      }
-    }
-  }
-  </script>
+<script setup>
+
+</script>
+
+<style lang="scss" scoped>
+
+</style>

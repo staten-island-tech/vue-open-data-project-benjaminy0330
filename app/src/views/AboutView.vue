@@ -1,7 +1,7 @@
 <template>
-    <div>
-<h1>asdas</h1>
-    </div>
+  <div>
+
+  </div>
 </template>
 
 <script setup>
