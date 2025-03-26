@@ -1,6 +1,6 @@
 <template>
     <div>
-<h1>Chart displaying the variety of dog breeds reported.</h1>
+<h1 class = "chart">Chart displaying the variety of dog breeds reported.</h1>
     </div>
 </template>
 
@@ -8,6 +8,8 @@
 
 </script>
 
-<style lang="scss" scoped>
-
+<style scoped>
+.chart{
+    text-align: center;
+}
 </style>
