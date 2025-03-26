@@ -10,30 +10,24 @@ const router = createRouter({
       name: 'home',
       component: HomeView,
     },
+    
     {
-      path: '/queens',
-      name: '/queens',
+      path: '/gender',
+      name: '/gender',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('../views/QueensView.vue'),
+      component: () => import('../views/GenderView.vue'),
     },
     {
-      path: '/bronx',
-      name: '/bronx',
+      path: '/breed',
+      name: '/breed',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('../views/BronxView.vue'),
+      component: () => import('../views/BreedView.vue'),
     },
-    {
-      path: '/queens',
-      name: '/queens',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('../views/QueensView.vue'),
-    },
+  
   ],
 })
 

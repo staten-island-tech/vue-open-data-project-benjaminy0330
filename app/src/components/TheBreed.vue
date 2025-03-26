@@ -1,17 +1,13 @@
 <template>
     <div>
-        <TheQueens />
+<h1>Chart displaying the variety of dog breeds reported.</h1>
     </div>
 </template>
 
-
 <script setup>
-import TheQueens from '@/components/TheQueens.vue';
 
 </script>
 
-
 <style lang="scss" scoped>
-
 
 </style>

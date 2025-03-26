@@ -1,20 +1,17 @@
-<script setup>
-
-
-</script>
-
-
 <template>
   <div class="greetings">
-    <h1> Dog bites throughout NYC </h1>
-    <h3>
-      Graphs display information about dogs' gender and breed across each of the five boroughs - prob just bK
-    </h3>
+    <h1> Dog bites throughout Brooklyn</h1>
+   
   </div>
 </template>
 
+<script setup>
+
+</script>
 
 <style scoped>
-
-
+.greetings{
+  font-size: 2rem;
+  text-align: center;
+}
 </style>
